@@ -48,7 +48,14 @@ const init = function(){
   paginationView.addHandlerClick(controlPagination);
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature()
   console.log("Welcome!");
+  console.log(BUG);
+}
+
+
+const newFeature = function(){
+  console.log("welcome to the appliactaon");
 }
 
 const controlPagination = function(goToPage){
