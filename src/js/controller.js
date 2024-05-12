@@ -50,7 +50,6 @@ const init = function(){
   addRecipeView.addHandlerUpload(controlAddRecipe);
   newFeature()
   console.log("Welcome!");
-  console.log(BUG);
 }
 
 
